@@ -19,7 +19,7 @@ asadmin create-domain domain1
  
 asadmin start-domain domain1
 
-asadmin add-resources D:\NetBeansProjects\trunk\TimeLine\src\main\webapp\WEB-INF\glassfish-resources.xml
+asadmin add-resources D:\NetBeansProjects\trunk\xxx\src\main\webapp\WEB-INF\glassfish-resources.xml
  
 
 ====================================
@@ -37,13 +37,13 @@ asadmin create-service domain1
 
 #### Maven CMD命令
 
-cd D:\NetBeansProjects\trunk\TimeLine
+cd D:\NetBeansProjects\trunk\xxx
 
 d:
 
 mvn clean install
 
-cd D:\NetBeansProjects\trunk\TimelinePlugins
+cd D:\NetBeansProjects\trunk\xxx
 
 d:
 
@@ -56,17 +56,17 @@ mvn clean install
 JDBC接続プール名：　mysql\_timeline\_timelinePool  
 リソースタイプ：　javax.sql.DataSource  
 ドライバのベンダー：　MySQL  
-URL： jdbc:mysql://localhost:3306/timeline?zeroDateTimeBehavior=convertToNull  
+URL： jdbc:mysql://localhost:3306/xxx?zeroDateTimeBehavior=convertToNull  
 driverClass： com.mysql.jdbc.Driver  
-Password： timeline  
+Password： xxx  
 portNumber： 3306  
-databaseName： timeline  
-User： timeline  
+databaseName： xxx  
+User： xxx  
 serverName： localhost  
 
 **JDBCリソース新規追加**  
 
-JNDI名： jdbc/timeline  
+JNDI名： jdbc/xxx 
 プール名： mysql_timeline_timelinePool  
 
 ====================================
